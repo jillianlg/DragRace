@@ -1,4 +1,4 @@
 export const getQueens = () => {
-  return fetch('https://drag-race-api.readme.io/docs/get-all-queens')
+  return fetch('http://www.nokeynoshade.party/api/queens/all')
     .then(res => res.json());
 };
