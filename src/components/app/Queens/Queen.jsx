@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const Queen = ({ image_url, name }) => (
   <div>
-    <img style={{ width: '200px' }} src={image_url} alt={name} />
     <p>{name}</p>
+    <img style={{ height: '200px' }} src={image_url} alt={name} />
   </div>
 );
 
