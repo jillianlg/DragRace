@@ -9,5 +9,9 @@ describe('AllQueens container', () => {
     screen.getByText('LOADING');
 
     const ul = await screen.findByTestId('queens');
+
+    return waitFor(() => {
+      expect(ul).not.toBeEmptyDOMElement();
+    });
   });
 });
