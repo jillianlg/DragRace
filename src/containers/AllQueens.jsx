@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import QueenList from '../components/app/Queens/QueenList';
 
 const AllQueens = () => {
   const [loading, setLoading] = useState(true);
