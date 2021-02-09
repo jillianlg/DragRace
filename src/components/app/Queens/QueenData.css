@@ -1,23 +1,20 @@
-ul{
-  border: solid 1px pink;
-  margin-bottom: .10vw;
-  width: 75vw;
+.div{
   display: flex;
-  flex-direction: row;
+  width: auto;
+}
+
+section{
+  border: solid pink 1px;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
-  text-align: center;
+  width: 50vw;
 
-  li{
-    list-style-type: none;
-  }
-
-  img{
-    padding: .6vw;
-    margin: .6vw;
+  p{
+    padding: 0px 10px 0px 10px;
   }
 }
-

@@ -5,18 +5,24 @@ exports[`QueenData component renders Queen data by id 1`] = `
   <div
     data-testid="details"
   >
-    <p>
-      Bianca Del Rio
-    </p>
-    <img
-      alt="Bianca Del Rio"
-      src="BDR.com"
-      style="height: 200px;"
-    />
-    <p />
-    <p>
-      Not today Satan.
-    </p>
+    <section
+      class="QueenData"
+    >
+      <p>
+        Bianca Del Rio
+      </p>
+      <img
+        alt="Bianca Del Rio"
+        src="BDR.com"
+        style="height: 200px;"
+      />
+      <p>
+        Season:
+      </p>
+      <p>
+        Not today Satan.
+      </p>
+    </section>
   </div>
 </DocumentFragment>
 `;
