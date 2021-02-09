@@ -2,8 +2,12 @@
 
 exports[`QueenList component renders QueenList 1`] = `
 <DocumentFragment>
-  <ul
-    data-testid="queens"
-  />
+  <div
+    class="QueenList"
+  >
+    <ul
+      data-testid="queens"
+    />
+  </div>
 </DocumentFragment>
 `;

@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Queen from './Queen';
 import { Link } from 'react-router-dom';
+import Queen from './Queen';
+import styles from './QueenList.css';
 
 const QueenList = ({ queens }) => {
   const queenElements = queens.map((queen) => (
@@ -12,7 +13,12 @@ const QueenList = ({ queens }) => {
     </li>
   ));
 
-  return <ul data-testid="queens">{queenElements}</ul>;
+  return <div className={styles.QueenList}>
+    <ul 
+      data-testid="queens"> 
+      {queenElements}
+    </ul>
+  </div>;
 };
 
 QueenList.propTypes = {

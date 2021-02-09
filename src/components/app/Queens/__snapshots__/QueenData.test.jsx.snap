@@ -1,20 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Queen component renders Queen 1`] = `
-<DocumentFragment>
-  <div>
-    <p>
-      Bianca Del Rio
-    </p>
-    <img
-      alt="Bianca Del Rio"
-      src="BDR.com"
-      style="height: 200px;"
-    />
-  </div>
-</DocumentFragment>
-`;
-
 exports[`QueenData component renders Queen data by id 1`] = `
 <DocumentFragment>
   <div
