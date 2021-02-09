@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const QueenData = ({ image_url, name, seasons:[season], quote }) => (
-  <div>
+  <div data-testid="details">
     <p>{name}</p>
     <img style={{ height: '200px' }} src={image_url} alt={name} />
     <p>{season.id}</p>

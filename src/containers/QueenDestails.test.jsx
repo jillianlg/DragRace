@@ -4,11 +4,11 @@ import QueenDetails from './QueenDetails';
 
 describe('QueenDetails container', () => {
   it('displays a loading screen then a details of a queen by id', async() => {
-    render(<QueenDetails />);
+    render(<QueenDetails match={{ params: { id: '1' } }}/>);
 
     screen.getByText('LOADING');
 
-    const ul = await screen.findByTestId('queens');
+    const ul = await screen.findByTestId('details');
 
     return waitFor(() => {
       expect(ul).not.toBeEmptyDOMElement();
