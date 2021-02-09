@@ -1,5 +1,5 @@
 export const getQueens = () => {
-  return fetch('http://www.nokeynoshade.party/api/queens/all')
+  return fetch('https://www.nokeynoshade.party/api/queens/all')
     .then(res => res.json());
 };
 
