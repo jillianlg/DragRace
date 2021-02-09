@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Queen from './Queen';
+import { Link } from 'react-router-dom';
 
 const QueenList = ({ queens }) => {
   const queenElements = queens.map((queen) => (
-    <li key={queen.name}>
-      <Queen
-        image_url={queen.image_url}
-        name={queen.name}
-      />
+    <li key={queen.id}>
+      <Link to={`/QueenDetails/${queen.id}`}>
+        <Queen {...queen} />
+      </Link>
     </li>
   ));
 
