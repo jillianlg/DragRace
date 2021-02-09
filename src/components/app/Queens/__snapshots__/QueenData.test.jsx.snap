@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QueenData component renders Queen data by id 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="details"
+  >
+    <section
+      class="QueenData"
+    >
+      <p>
+        Bianca Del Rio
+      </p>
+      <img
+        alt="Bianca Del Rio"
+        src="BDR.com"
+        style="height: 200px;"
+      />
+      <p>
+        Season:
+      </p>
+      <p>
+        Not today Satan.
+      </p>
+    </section>
+  </div>
+</DocumentFragment>
+`;
